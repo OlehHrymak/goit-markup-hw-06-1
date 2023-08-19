@@ -151,7 +151,7 @@ color: var(--ocean-cl);
   gap: 40px;
 }
 .header-address-link {
-  color: var(--slate-cl);
+  color: var(--main-cl);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -165,6 +165,8 @@ color: var(--ocean-cl);
   margin-left: auto;
   margin-top: 24px;
   margin-bottom: 24px;
+  border: none;
+  background: transparent;
 }
 .mob-menu {
   position: fixed;
@@ -187,9 +189,11 @@ color: var(--ocean-cl);
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
+  border: none;
+  background: transparent;
 }
 .mob-menu-list {
-  margin-bottom: 100px;
+  margin-bottom: 284px;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -202,6 +206,7 @@ color: var(--ocean-cl);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 40px;
+  font-weight: 700;
 }
 .mob-menu-link-two {
 color: var(--navy-blue-cl);
@@ -209,6 +214,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+font-weight: 700;
 }
 
 .mob-menu-address-conteiner {
@@ -223,13 +229,12 @@ gap: 40px;
 
 .mob-menu-tel-link {
 color: var(--iris-cl);
-font-size: 36px;
+font-size: 24px;
 line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
 font-style: normal;
-
-
+font-weight: 700;
 }
 .mob-menu-mail-link {
 color: var(--main-cl);
@@ -266,7 +271,8 @@ font-style: normal;
 /*! -------------HERO--------------------------- */
 
 .hero {
-  padding: 112px 54px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   max-width: 428px;
   margin: 0 auto;
   background-color: var(--navy-blue-modal-cl); 
@@ -290,11 +296,10 @@ font-style: normal;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 72px;
 }
 .hero-btn {
   background-color: var(--iris-cl);
@@ -509,7 +514,7 @@ width: calc((100% - 2 * 24px )/ 3);
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 72px 16px;
 }
 
 .customers-item {
@@ -826,7 +831,7 @@ text-align:nleft;
   transform:  translate(-50%, -50%) scale(0);
 }
 .modal {
-  width: 408px;
+  width: 310px;
   min-height: 584px;
   background-color: var(--dairy-cl);
   border-radius: 4px;

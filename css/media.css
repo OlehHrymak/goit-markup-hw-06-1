@@ -9,7 +9,12 @@
   .container {
     max-width: 426px;
   }
-
+  .mob-menu-tel-link {
+    font-size: 36px;
+  }
+  .modal {
+    width: 408px;
+  }
   .team > .container {
     max-width: 294px;
   }
@@ -38,9 +43,13 @@
      flex-direction: column;
      gap: 12px;
    }
+   .header-address-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+   }
   .hero {
     max-width: 768px;
-    padding: 112px 136px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -56,7 +65,7 @@
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  padding-bottom: 72px;
+  margin-bottom: 36px;
   } 
 
   .advantages-item {
@@ -120,7 +129,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px)  {
   .container {
     max-width: 1158px;
   }
@@ -141,7 +150,8 @@
    }
   .hero {
     max-width: 1440px;
-    padding: 188px 472px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -159,7 +169,7 @@
     max-width: 496px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
   }
   .advantages {
     padding-top: 120px;
@@ -177,6 +187,7 @@
     line-height: 1.2;
   }
   .advantages-item-text {
+    font-weight: normal;
   }
   .portfolio {
     padding-bottom: 120px;
