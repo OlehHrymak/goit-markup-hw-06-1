@@ -185,6 +185,9 @@ color: var(--ocean-cl);
   justify-content: space-between;
   overflow: auto;
 }
+.mob-menu-nav {
+  margin-bottom:auto;
+}
 .menu-close-btn {
   display: block;
   margin-left: auto;
@@ -193,7 +196,7 @@ color: var(--ocean-cl);
   background: transparent;
 }
 .mob-menu-list {
-  margin-bottom: 284px;
+ 
 }
 
 .mob-menu-item:not(:last-child) {
